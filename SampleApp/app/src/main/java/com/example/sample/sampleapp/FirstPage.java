@@ -57,6 +57,7 @@ public class FirstPage extends Fragment {
     @Override
     public void onDetach() {
         super.onDetach();
+        
         Log.d("log", "ondetach first page");
     }
 }
